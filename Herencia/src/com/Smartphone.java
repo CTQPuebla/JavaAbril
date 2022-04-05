@@ -68,6 +68,13 @@ public class Smartphone extends Celular{
 				+ ", getModelo()=" + getModelo() + ", getMarca()=" + getMarca() + ", getMaterial()=" + getMaterial()
 				+ ", getNumBotones()=" + getNumBotones() + ", toString()=" + super.toString() + "]";
 	}
+
+	@Override
+	public void reproducirMusica() {
+		System.out.println("Abriendo spotify ...");
+		System.out.println("Reproduciendo ...");
+		
+	}
 	
 
 }
