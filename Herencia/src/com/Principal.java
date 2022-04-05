@@ -18,12 +18,13 @@ public class Principal {
 		
 //		System.out.println(padre);
 //		System.out.println(hijo);
+		 
 		
 		
-		Celular c = new Celular("1100", "NOKIA", "PLASTICO", 20);
-		
-		c.llamar("0987654321");
-		c.mandarMsj("hola", "11234567890");
+//		Celular c = new Celular("1100", "NOKIA", "PLASTICO", 20);
+//		
+//		c.llamar("0987654321");
+//		c.mandarMsj("hola", "11234567890");
 		
 		//Esta accion no es posible hacerla dado que
 		//La herencia no funciona de de manera ascendente
@@ -58,7 +59,7 @@ public class Principal {
 		
 		sm.tomarFoto();		
 		
-		System.out.println(c);
+		//System.out.println(c);
 		System.out.println(cb);
 		System.out.println(sm);
 		

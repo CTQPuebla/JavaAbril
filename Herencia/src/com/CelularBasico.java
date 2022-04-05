@@ -54,6 +54,16 @@ public class CelularBasico extends Celular{
 				+ ", getMarca()=" + getMarca() + ", getMaterial()=" + getMaterial() + ", getNumBotones()="
 				+ getNumBotones() + "]";
 	}
+
+
+	@Override
+	public void reproducirMusica() {
+		
+		System.out.println("Buscando archivo ...");
+		System.out.println("Abriendo ...");
+		System.out.println("Reproduciendo ...");
+		
+	}
 	
 
 }

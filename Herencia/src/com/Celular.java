@@ -1,6 +1,8 @@
 package com;
 
-public class Celular {
+
+
+public abstract class Celular {
 	
 	
 	private String modelo, marca, material;
@@ -64,16 +66,9 @@ public class Celular {
 		System.out.println("Enviando "+ mensaje +" numero: "+numero);	
 	}
 	
-	
-	
-	
-	
-	
-		
-	public void reproducirMusica() {
-		
-	}
-	
+
+	//Metodo abstracto
+	public abstract void reproducirMusica();
 	
 
 }
